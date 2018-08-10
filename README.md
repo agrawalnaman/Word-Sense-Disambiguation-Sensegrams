@@ -14,6 +14,7 @@ DATA REQUIRED:
 2]wikipedia_stanford_LMI_s0.0_w2_f2_wf0_wpfmax1000_wpfmin2_p1000_filtered_g1
 3]wikipedia_stanford_cluster_a1_N200_n200_labelled
 4]glove.6B.300d.txt
+
 ----------------------------------------------------------------------------------
 
 REFERENCES:
