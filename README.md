@@ -53,6 +53,6 @@ There is a plethora of polysemous words which we use in our everyday life. These
 ----------------------------------------------------------------------------------------
 ## Authors:
 
-* NAMAN AGRAWAL:namanagrawal54@gmail.com , 8390702789
-* PRIYANKA CORNELIUS:priyankajohn1997@gmail.com ,8953945345
+* NAMAN AGRAWAL:namanagrawal54@gmail.com
+* PRIYANKA CORNELIUS:priyankajohn1997@gmail.com
 
