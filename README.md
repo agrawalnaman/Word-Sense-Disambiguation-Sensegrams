@@ -55,4 +55,8 @@ There is a plethora of polysemous words which we use in our everyday life. These
 
 * NAMAN AGRAWAL:namanagrawal54@gmail.com
 * PRIYANKA CORNELIUS:priyankajohn1997@gmail.com
+-----------------------------------------------------------------------------------------
+## Downloads:
+* Sensegrams Trained from 300 dimension vectors (glove).
+Email the authors to request the file link.
 
