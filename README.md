@@ -3,12 +3,6 @@
 This project is a Word Sense Disambiguation system for the Machine Translation system ‘Anusaaraka’, which is being worked upon at the Anusaaraka Lab, LTRC, International institute of information Technology Hyderabad. The concept has been derived from the research paper ‘Making Sense of Word Embeddings’ by Alexander Panchenko et al.
 There is a plethora of polysemous words which we use in our everyday life. These words when translated into other languages often generate ambiguity regarding the correct sense of the word used in the sentence. To improve the disambiguation of word senses a novel approach has been used in this project, which incorporates the context in which the words have been used and predicts the correct sense. We trained the Sense Embeddings (Sensegrams) from Wikipedia clusters for our system. The system takes the weighted average of the context words and then calculates the cosine similarity between the Sense Embeddings and the context-based Embeddings and then predicts the correct sense with highest cosine similarity. Further work is being done to improve the ability of the system to predict correct sense and to incorporate this with “Anusaaraka” Machine translation system at International institute of information Technology Hyderabad.
 
----------------------------------------------------------------------------------
-### CONTACT
-
-NAMAN AGRAWAL:namanagrawal54@gmail.com , 8390702789
-PRIYANKA CORNELIUS:priyankajohn1997@gmail.com ,8953945345
-
 ----------------------------------------------------------------------------------
 ### DATA REQUIRED
 ```
@@ -54,7 +48,11 @@ PRIYANKA CORNELIUS:priyankajohn1997@gmail.com ,8953945345
 ### OTHER PROGRAMS FOLDER
 * The folder contains some experimental programs which might be usefull for other tasks such as creating a CRUD script for cluster file editing and feedback.
 ------------------------------------------------------------------------------------- 
-# NOTE:
+## NOTE:
 * 1]Please check the research papers enclosed in this folder [important concepts have been highlighted].
+----------------------------------------------------------------------------------------
+## Authors:
 
+* NAMAN AGRAWAL:namanagrawal54@gmail.com , 8390702789
+* PRIYANKA CORNELIUS:priyankajohn1997@gmail.com ,8953945345
 
