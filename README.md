@@ -4,6 +4,16 @@ This project is a Word Sense Disambiguation system for the Machine Translation s
 There is a plethora of polysemous words which we use in our everyday life. These words when translated into other languages often generate ambiguity regarding the correct sense of the word used in the sentence. To improve the disambiguation of word senses a novel approach has been used in this project, which incorporates the context in which the words have been used and predicts the correct sense. We trained the Sense Embeddings (Sensegrams) from Wikipedia clusters for our system. The system takes the weighted average of the context words and then calculates the cosine similarity between the Sense Embeddings and the context-based Embeddings and then predicts the correct sense with highest cosine similarity. Further work is being done to improve the ability of the system to predict correct sense and to incorporate this with “Anusaaraka” Machine translation system at International institute of information Technology Hyderabad.
 
 ----------------------------------------------------------------------------------
+### Need for the proposed system:
+For the machine to be able to comprehend their contextual meaning and translate them accordingly, word sense disambiguation is the way to go. Many different designs of WSD systems were proposed. For example, Supervised approaches, that use an explicitly sense-labelled training corpus to construct a model, usually building one model per target word. These approaches demonstrate top performance in competitions, but require considerable amounts of sense labelled examples. Unsupervised WSD approaches rely neither on hand-annotated sense-labelled corpora, nor on handcrafted lexical resources. Instead, they automatically induce a sense inventory from raw corpora. In contrast to existing techniques, which either directly learn sense representations from corpora or rely on sense inventories from lexical resources, the approach used in this project can induce a sense inventory from existing word embeddings via clustering of ego-networks of related words.
+
+-------------------------------------------------------------------------------------
+### What are we trying to achieve?
+* We proposed to make a system based on natural language processing which will disambiguate polysemous words in English language. Hence this system overcomes these problems with maximum accuracy with the help of rich cluster data and efficient disambiguation rules for correct word disambiguation.
+* These disambiguated senses would then be useful for mapping Hindi Dictionary words during the tranlsation process.
+* It will help us make stronger and efficient WSD rules for Anusaaraka. 
+
+
 ### DATA REQUIRED
 ```
 1]wikipedia_stanford_BIM_LMI_s0.0_w2_f2_wf0_wpfmax1000_wpfmin2_p1000_filtered_g1
@@ -11,16 +21,7 @@ There is a plethora of polysemous words which we use in our everyday life. These
 3]wikipedia_stanford_cluster_a1_N200_n200_labelled
 4]glove.6B.300d.txt
 ```
-----------------------------------------------------------------------------------
 
-### REFERENCES:
-```
-1]making sense of word embeddings
-2]Unsupervised, Knowledge-Free, and Interpretable
-  Word Sense Disambiguation
-3]API :http://ltbev.informatik.uni-hamburg.de/wsd/single-word
-5]www.jobimtext.org
-```
 ----------------------------------------------------------------------------------
 
 ## CONTEXT_BASED_FEATURES
@@ -49,7 +50,7 @@ There is a plethora of polysemous words which we use in our everyday life. These
 * The folder contains some experimental programs which might be usefull for other tasks such as creating a CRUD script for cluster file editing and feedback.
 ------------------------------------------------------------------------------------- 
 ## NOTE:
-* 1]Please check the research papers enclosed in this folder [important concepts have been highlighted].
+* Please check the research papers enclosed in this folder [important concepts have been highlighted].
 ----------------------------------------------------------------------------------------
 ## Authors:
 
@@ -59,4 +60,14 @@ There is a plethora of polysemous words which we use in our everyday life. These
 ## Downloads:
 * Sensegrams Trained from 300 dimension vectors (glove).
 Email the authors to request the file link.
+----------------------------------------------------------------------------------
+
+### REFERENCES:
+```
+1]making sense of word embeddings
+2]Unsupervised, Knowledge-Free, and Interpretable
+  Word Sense Disambiguation
+3]API :http://ltbev.informatik.uni-hamburg.de/wsd/single-word
+5]www.jobimtext.org
+```
 
