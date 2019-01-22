@@ -21,6 +21,10 @@ For the machine to be able to comprehend their contextual meaning and translate 
 3]wikipedia_stanford_cluster_a1_N200_n200_labelled
 4]glove.6B.300d.txt
 ```
+# Testing and Results
+We tested our predictions on SemEval 2013 task 13 dataset for calculating the F score and accuracy.
+
+## **[View Test Results](https://github.com/sounak98/nlp-projects/blob/master/Word%20Sense%20Disambiguation.ipynb)**
 
 ----------------------------------------------------------------------------------
 
