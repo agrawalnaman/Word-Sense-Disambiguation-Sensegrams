@@ -56,7 +56,7 @@ We tested our predictions on SemEval 2013 task 13 dataset for calculating the F 
 # Ongoing Work:
 
 We are working on a pipeline to integrate these prediction module into Anusaaraka to help it perform better translation into hindi language i.e. perform WTD from WSD.
-### [WTD](https://github.com/agrawalnaman/WSD-for-WTD-using-sensgrams)
+### [WTD repository](https://github.com/agrawalnaman/WSD-for-WTD-using-sensgrams)
 
 ## NOTE:
 * Please check the research papers enclosed in this folder [important concepts have been highlighted].
